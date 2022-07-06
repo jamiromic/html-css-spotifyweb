@@ -1,0 +1,88 @@
+/*Regole di Reset*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+img {
+    max-width: 100%;
+
+}
+
+ul,
+ol,
+menu {
+
+    font-style: none;
+
+}
+
+/*Main Boxes*/
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+
+.mainbody{
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.footer{
+
+    background-color: green;
+    border: 1px solid black;
+    padding: 5rem;
+    position: fixed;
+
+}
+
+.menu-aside{
+
+    
+
+}
+
+
+
+.header{
+    
+    background-color: blueviolet;
+    border: 1px solid black;
+    padding: 5rem;
+}
+
+
+.menu-nav{
+
+  
+
+}
+
+.section{
+    flex-grow: 1;
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 5rem;
+    
+
+}
+
+
+.main-body{
+
+
+}
+
+
