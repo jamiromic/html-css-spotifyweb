@@ -23,6 +23,7 @@ menu {
 }
 
 /*Main Boxes*/
+/*Mobile First*/
 
 
 main{
@@ -36,6 +37,7 @@ main{
 .mainbody{
     display: flex;
     flex-grow: 1;
+    width: 100vw;
 
 }
 
@@ -44,7 +46,7 @@ main{
     background-color: green;
     border: 1px solid black;
     padding: 5rem;
-    position: fixed;
+    height: 90px;
 
 }
 
@@ -84,5 +86,37 @@ main{
 
 
 }
+
+/*Media Query*/
+
+
+/*Small*/
+
+@media (min-width: 639px) {
+
+
+
+}
+
+/*Medium*/
+
+@media (min-width: 878px) {
+
+
+
+}
+
+
+
+/*Large*/
+
+
+@media (min-width: 1440px) {
+
+
+
+}
+
+
 
 
