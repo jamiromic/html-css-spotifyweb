@@ -23,6 +23,8 @@ ul, ol, menu {
 
 :root {
     --footer-bg-color: #282828;
+    --mainbody-bg-color: #141922;
+    --upgrade-bg-color: #080B12;
     --aside-font-color: #6A6A6A;
     --aside-bg-color: black;
     --aside-button-color: #A3A3A3;
@@ -47,6 +49,7 @@ main{
     flex-grow: 1;
     width: 100vw;
     height: 100vh;
+    
     
 
 }
@@ -338,10 +341,51 @@ main{
 
 .section{
     flex-grow: 1;
-    background-color: cadetblue;
+    background-color: var(--mainbody-bg-color);
     border: 1px solid black;
-    padding: 5rem;
     
+
+}
+
+.body-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.upgrade {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: right;
+    background-color: var(--upgrade-bg-color);
+    width: 100%;
+
+}
+
+.nav-top {
+    display: flex;
+    justify-content: center;
+
+}
+
+.list-top {
+    display: flex;
+    text-transform: uppercase;
+    color: var(--aside-font-color);
+
+}
+
+.recently {
+
+
+}
+
+.create-for-title{
+
+
+}
+
+.create-for-card{
+
 
 }
 
@@ -398,7 +442,7 @@ main{
 
 
 @media (min-width: 1440px) {
-    
+
 
 .favorite{
    flex-direction: row;
