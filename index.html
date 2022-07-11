@@ -34,7 +34,8 @@
                         <img src="./img/logo.svg" alt="Logo di Spotify">
                     </div>
                     <ul class="menu-options">
-                        <li class="options white">
+                        <li class="options white active2">
+                            <a href="#"></a>
                           <i class="fa-solid fa-house"></i>
                            Home
                         </li>
@@ -81,12 +82,15 @@
             <section class="section">
                 <div class="body-row">
                     <div class="upgrade">
-                        <a href="#">effettua l'upgrade</a>
+                        <a class="upgrade-link" href="#">effettua l'upgrade</a>
 
                     </div>
                     <div class="nav-top">
                         <ul class="list-top">
-                            <li>in evidenza</li>
+                            <li>
+                                <a href="#"></a>
+                                <li class="active">in evidenza</li>
+                            </li>
                             <li>podcast</li>
                             <li>classifiche</li>
                             <li>generi e mood</li>
@@ -96,7 +100,7 @@
 
                     </div>
                     <div class="recently">
-                        <div class="create-for-title">
+                        <div class="title-section">
                             <h2>Recently played</h2>
                         </div>
 
@@ -104,50 +108,93 @@
                     
                     <div class="create-for-card">
                         <div class="card heavy">
-                            <figure>
-                                <img src="./img/metal_lifting.jpg" alt="Photos Heavy Metal">
+                            <figure class="card-img">
+                                <img src="./img/metal_lifting.jpg" alt="Photo Heavy Metal">
                             </figure>
                             <h3 class="title-artist">Heavy Metal</h3>
                             <h4 class="subtitle">Subtitle</h4>
 
                         </div>
                         <div class="card stranges">
-                            <figure>
-                                <img src="./img/stranger.jpeg" alt="Photos Stranger Things">
+                            <figure class="card-img">
+                                <img src="./img/stranger.jpeg" alt="Photo Stranger Things">
                             </figure>
                             <h3 class="title-artist">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack</h3>
-                            <h4 class="subtitle">Kyle Dixon % Michael Stein</h4>
+                            <h4 class="subtitle">Kyle Dixon & Michael Stein</h4>
                         </div>
                         <div class="card quiet">
-                            <figure>
-                                <img src="./img/aquietplace.jpeg" alt="Photos A Quiet Place">
+                            <figure class="card-img">
+                                <img class="photoimg" src="./img/aquietplace.jpeg" alt="Photo A Quiet Place">
                             </figure>
                             <h3 class="title-artist">A quiet place</h3>
                             <h4 class="subtitle">Subtitle</h4>
                         </div>
                         <div class="card split">
-                            <figure>
-                                <img src="./img/split.jpeg" alt="Photos Split">
+                            <figure class="card-img">
+                                <img src="./img/split.jpeg" alt="Photo Split">
                             </figure>
                             <h3 class="title-artist">Split</h3>
                             <h4 class="subtitle">Subtitle</h4>
                         </div>
                         <div class="card wellness">
-                            <figure>
-                                <img src="./img/cure.jpeg" alt="Photos Cure For wellness">
+                            <figure class="card-img">
+                                <img src="./img/cure.jpeg" alt="Photo Cure For wellness">
                             </figure>
                             <h3 class="title-artist">a cure for wellness</h3>
                             <h4 class="subtitle">Subtitle</h4>
                         </div>
                         <div class="card sinist">
-                            <figure>
-                                <img src="./img/sinister.jpeg" alt="Photos Sinister">
+                            <figure class="card-img">
+                                <img src="./img/sinister.jpeg" alt="Photo Sinister">
                             </figure>
                             <h3 class="title-artist">Sinister</h3>
                             <h4 class="subtitle">Subtitle</h4>
                         </div>
                     </div>
+                    <div class="title-section">
+                        <h2>Creato per John Doe</h2>
+                        <h4 class="subtitle-section">Più ascolti, più accurati saranno i suggerimenti</h4>
+                    </div>
+                    <div class="create-for-card">
+                        <div class="card radar">
+                            <figure class="card-img">
+                                <img src="./img/radar.jpeg" alt="Photo Release Radar">
+                            </figure>
+                            <h3 class="title-artist">Release Radar</h3>
+                            
+                        </div>
+                        <div class="card mix">
+                            <figure class="card-img">
+                                <img src="./img/mixdaily.jpeg" alt="Photo Mix Daily">
+                            </figure>
+                            <h3 class="title-artist">Daily Mix 1</h3>
+                            <h4 class="subtitle">Subtitle</h4>
+                        </div>
+
+                    </div>
+                    <div class="title-section">
+                        <h2>Artisti più popolari</h2>
+                        <h4 class="subtitle-section">Più ascolti, più accurati saranno i suggerimenti</h4>
+                    </div>
+                    <div class="create-for-card">
+                        <div class="card youg">
+                            <figure class="card-img">
+                                <img class="img-radius" src="./img/youg.jpeg" alt="Photo Youg">
+                            </figure>
+                            <h3 class="title-artist">Release Radar</h3>
+                            
+                        </div>
+                        <div class="card einaudi">
+                            <figure class="card-img">
+                                <img class="img-radius" src="./img/einaudi.jpeg" alt="Photo Einaudi">
+                            </figure>
+                            <h3 class="title-artist">Daily Mix 1</h3>
+                            
+                        </div>
+
+                    </div>
                 </div>
+                
             </section>
         </div>
         <footer class="footer">
@@ -159,8 +206,11 @@
                     </figure>
                     <ul class="namealbum">
                         <li class="title-track">Sinister</li>
-                        <li class="track">Brano</li>
-                        <li class="name-track">Nome</li>
+                        <div class="name-track">
+                            <li>Brano</li>
+                            <li>Nome</li>
+                        </div>
+                        
                     </ul>
                     <ul class="favorite">
                         <li><i class="fa-regular fa-heart"></i></i></li>
@@ -181,7 +231,9 @@
                     <ul class="status-bar">
                         <li class="minutes">0:25</li>
                         <li class="container-line">
-                            <div class="line-white"></div>
+                            <div class="line-white">
+                                <div class="dot-line"></div>
+                            </div>
                         </li>
                         <li class="minutes">4:35</li>
                     </ul>
