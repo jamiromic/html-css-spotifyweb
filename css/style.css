@@ -413,6 +413,7 @@ main{
 
 .create-for-card {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 1.5rem;
     gap: 2rem;
@@ -483,6 +484,7 @@ main{
    
 }
 
+
 }
 
 
@@ -515,6 +517,15 @@ main{
    
 }
 
+.create-for-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 1.5rem;
+    gap: 2rem;
+
+
+}
 
 
 }
